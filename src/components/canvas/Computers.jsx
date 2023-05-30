@@ -8,7 +8,7 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
-    <mesh>
+    <mesh draggable={false}>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
@@ -21,8 +21,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.5 : 0.5}
-        position={isMobile ? [0, -3, -2.2] : [0, -2.5, -0.75]}
+        scale={isMobile ? 0 : 0.5}
+        position={isMobile ? [0, -3, -3] : [0, -2.5, -0.75]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
