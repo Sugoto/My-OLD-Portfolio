@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front End Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Machine Learning Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI/UX Designer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Technical Content Writer",
     icon: creator,
   },
 ];
@@ -104,10 +104,14 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -133,32 +137,6 @@ const experiences = [
       "Managed and coordinated the efforts of 5 teams, overseeing their GitHub repositories, driving successful and timely contributions to the event.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
@@ -190,12 +168,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TidBits",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Tidbits is an open-source sharing platform that empowers individuals to explore, develop, and exchange their creative thoughts and ideas. Join our community and unlock a world of inspiration.",
     tags: [
       {
-        name: "react",
+        name: "next13",
         color: "blue-text-gradient",
       },
       {
@@ -207,50 +185,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tripguide,
+    source_code_link: "https://github.com/Sugoto/Tidbits-Share-your-Ideas",
   },
   {
-    name: "Job IT",
+    name: "TeeJS",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Design & personalize your own t-shirts with vibrant colors, captivating logos, and AI-generated designs! Unleash your creativity and stand out with our intuitive interface and 3D rendering.",
     tags: [
       {
-        name: "react",
+        name: "threejs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "framer-motion",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sugoto/TeeJS",
   },
   {
-    name: "Trip Guide",
+    name: "Shortenz",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application that leverages the power of OpenAI API from Rapid API to summarize articles from their links. It provides a convenient way to extract key information and insights from lengthy texts.",
     tags: [
       {
-        name: "nextjs",
+        name: "rapidapi",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "browser-storage",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carrent,
+    source_code_link: "https://github.com/Sugoto/Shortenz-AI-Summarizer",
   },
 ];
 
