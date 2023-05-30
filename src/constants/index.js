@@ -80,10 +80,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "Machine Learning Intern",
     company_name: "IIT Roorkee",
-    icon: starbucks,
+    icon: redux,
     iconBg: "#383E56",
     date: "Nov 2022 - March 2023",
     points: [
@@ -130,7 +130,7 @@ const experiences = [
   {
     title: "GitHub Technical Manager",
     company_name: "DIVERSION 2K22 @ IEM, Kolkata",
-    icon: tesla,
+    icon: git,
     iconBg: "#E6DEDD",
     date: "Dec 2021 - May 2022",
     points: [
