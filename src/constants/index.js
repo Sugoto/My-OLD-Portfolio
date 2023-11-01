@@ -210,25 +210,46 @@ const projects = [
     source_code_link: "https://github.com/Sugoto/TeeJS",
   },
   {
-    name: "Algorithmic Training",
+    name: "Algorithmic Trading",
     description:
       "An innovative unsupervised learning trading strategy using Python and Machine Learning, to analyze the S&P 500 market, resulting in optimized portfolio management and increased market performance.",
     tags: [
       {
-        name: "Python",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "Machine Learning",
+        name: "machine-learning",
         color: "green-text-gradient",
       },
       {
-        name: "Finance",
+        name: "finance",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/Sugoto/Algorithmic-Trading-Using-Unsupervised-Learning",
+  },
+  {
+    name: "Cloud Resource Monitoring App",
+    description:
+      "A Cloud Resource Monitoring Application utilizing Docker, Kubernetes, Amazon ECR, and Amazon EKS to measure system resource usage of a server.",
+    tags: [
+      {
+        name: "kubernetes",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "green-text-gradient",
+      },
+      {
+        name: "linux-server",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/Sugoto/Cloud-Resource-Monitoring",
   },
 ];
 
