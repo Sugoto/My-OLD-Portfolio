@@ -210,25 +210,25 @@ const projects = [
     source_code_link: "https://github.com/Sugoto/TeeJS",
   },
   {
-    name: "Shortenz",
+    name: "Algorithmic Training",
     description:
-      "A web application that leverages the power of OpenAI API from Rapid API to summarize articles from their links. It provides a convenient way to extract key information and insights from lengthy texts.",
+      "An innovative unsupervised learning trading strategy using Python and Machine Learning, to analyze the S&P 500 market, resulting in optimized portfolio management and increased market performance.",
     tags: [
       {
-        name: "rapidapi",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "browser-storage",
+        name: "Machine Learning",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Finance",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/Sugoto/Shortenz-AI-Summarizer",
+    source_code_link: "https://github.com/Sugoto/Algorithmic-Trading-Using-Unsupervised-Learning",
   },
 ];
 
